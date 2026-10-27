@@ -1,0 +1,12 @@
+{
+  "models": {
+    "llama7b": "models/llama7b",
+    "llama7b_sft": "models/llama7b_sft",
+    "mistral7b": "models/mistral7b",
+    "mistral7b_sft": "models/mistral7b_sft",
+    "llama13b": "models/llama13b",
+    "llama30b": "models/llama30b"
+  },
+  "detoxify_checkpoint": "models/detoxify/toxic_original-c1212f89.ckpt",
+  "detoxify_tokenizer": "models/bert-base-uncased"
+}

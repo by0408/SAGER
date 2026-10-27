@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sager2"
+version = "0.1.0"
+description = "Main-experiment implementation of Small-Angle Givens Editing of Representations"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[project.scripts]
+sager2 = "sager2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
